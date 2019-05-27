@@ -56,5 +56,5 @@ An online sample backend application for e-commerce website created using Java, 
 # Steps to run jar file:
     1. execute maven clean and maven install
     2. once the jar file is created, run the following command to execute the jar
-       > cd C:\Users\mypc\eclipse-workspace\EShop\target
+       > cd <target-directory where jar file is created>
        > java -jar EShop-0.0.1.jar server eShop.yml
