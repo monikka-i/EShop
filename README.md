@@ -11,14 +11,14 @@ An online sample backend application for e-commerce website created using Java, 
     3. to start mongodb using cmd
        > cd C:\Program Files\MongoDB\Server\4.0\bin
        > mongod --dbpath "F:\data"
-    4. using mongo compass gui(or robo mongo), create database, collection, and insert document with values
+    4. using mongo compass gui(or robo mongo), create database and collections (given below)
 
 # Following collections are used: (MongoDB)
 
-    seqNumber   - to generate userId and orderId
+    seqNumber   - to generate userId and orderId (initialize the values as userSeqNum and orderSeqNum)
     customer    - to store customer details (both admin and customer)
     catalogue   - to store list of all products
-    order       - stores purchase history of customers
+    order       - to store purchase history of customers
 
 # Following are the REST API's used:
 
